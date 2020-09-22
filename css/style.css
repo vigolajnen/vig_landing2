@@ -777,19 +777,17 @@ html {
   max-width: 570px;
 }
 
-@media (max-width: 767px) {
-  .skills__info {
-    width: 100%;
-    text-align: center;
-  }
-}
-
 .skills__item:nth-child(2n) .skills__info {
   padding-top: 22px;
   text-align: right;
 }
 
 @media (max-width: 767px) {
+  .skills__info {
+    width: 100%;
+    text-align: center;
+  }
+
   .skills__item:nth-child(2n) .skills__info {
     text-align: center;
   }
