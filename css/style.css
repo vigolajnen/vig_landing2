@@ -755,18 +755,6 @@ html {
   }
 }
 
-.skills__info {
-  width: calc(100% - 175px - 26px);
-  max-width: 570px;
-}
-
-@media (max-width: 767px) {
-  .skills__info {
-    width: 100%;
-    text-align: center;
-  }
-}
-
 .skills__item:nth-child(2n) .skills__icon {
   -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
@@ -781,6 +769,18 @@ html {
     -ms-flex-order: 0;
     order: 0;
     margin-left: 0;
+  }
+}
+
+.skills__info {
+  width: calc(100% - 175px - 26px);
+  max-width: 570px;
+}
+
+@media (max-width: 767px) {
+  .skills__info {
+    width: 100%;
+    text-align: center;
   }
 }
 
