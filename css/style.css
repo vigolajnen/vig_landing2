@@ -811,6 +811,13 @@ html {
     align-items: center;
   }
 
+  .pagination__item {
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+
   .feedback {
     padding: 30px 0;
   }
