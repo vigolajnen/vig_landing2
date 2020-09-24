@@ -735,15 +735,15 @@ html {
     padding-top: 35px;
   }
 
+  .skills__item {
+    display: none;
+    margin-bottom: 30px;
+  }
+
   .skills__item:nth-child(2n) {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-  }
-
-  .skills__item {
-    display: none;
-    margin-bottom: 30px;
   }
 
   .skills__item:last-child {
