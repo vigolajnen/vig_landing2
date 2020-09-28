@@ -262,7 +262,6 @@ html {
   outline: none;
 }
 
-
 .menu__link {
   padding: 13px 11px;
   margin-right: 27px;
@@ -507,7 +506,6 @@ html {
 .skills__pagination {
   display: none;
 }
-
 
 .pagination {
   display: none;
@@ -796,6 +794,11 @@ html {
     padding-top: 35px;
   }
 
+  .skills__item {
+    display: none;
+    margin-bottom: 30px;
+  }
+
   .skills__item:nth-child(2n) {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
@@ -811,11 +814,6 @@ html {
 
   .skills__item:nth-child(2n) .skills__info {
     text-align: center;
-  }
-
-  .skills__item {
-    display: none;
-    margin-bottom: 30px;
   }
 
   .skills__item:last-child {
@@ -840,7 +838,6 @@ html {
   }
 
   .skills__subtitle {
-    padding: 0;
     letter-spacing: 0.023em;
     padding: 0 19px 4px;
   }
