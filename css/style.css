@@ -469,17 +469,8 @@ html {
   margin-bottom: 0;
 }
 
-.skills__item:last-child .skills__info {
-  padding-top: 10px;
-}
-
 .skills__item:last-child .skills__text {
   max-width: 390px;
-}
-
-.skills__icon {
-  width: 175px;
-  margin-right: 26px;
 }
 
 .skills__info {
@@ -487,9 +478,18 @@ html {
   max-width: 570px;
 }
 
+.skills__item:last-child .skills__info {
+  padding-top: 10px;
+}
+
 .skills__item:nth-child(2n) .skills__info {
   padding-top: 22px;
   text-align: right;
+}
+
+.skills__icon {
+  width: 175px;
+  margin-right: 26px;
 }
 
 .skills__item:nth-child(2n) .skills__icon {
