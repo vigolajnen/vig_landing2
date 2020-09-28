@@ -487,17 +487,17 @@ html {
   max-width: 570px;
 }
 
+.skills__item:nth-child(2n) .skills__info {
+  padding-top: 22px;
+  text-align: right;
+}
+
 .skills__item:nth-child(2n) .skills__icon {
   -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
   order: 2;
   margin-right: 0;
   margin-left: 26px;
-}
-
-.skills__item:nth-child(2n) .skills__info {
-  padding-top: 22px;
-  text-align: right;
 }
 
 .skills__pagination {
