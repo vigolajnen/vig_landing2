@@ -856,6 +856,10 @@ html {
     align-items: center;
   }
 
+  .pagination__item {
+    padding: 0;
+  }
+
   .feedback {
     padding: 30px 0;
   }
